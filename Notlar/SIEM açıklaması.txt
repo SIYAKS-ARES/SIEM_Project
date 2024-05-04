@@ -1,0 +1,51 @@
+SIEM, Güvenlik Bilgi ve Olay Yönetimi anlamına gelir ve bilgisayar sistemlerindeki güvenlik olaylarını izlemek, analiz etmek ve raporlamak için kullanılan bir yazılım platformudur. SIEM çözümleri, loglama, olay yönetimi, tehdit algılama ve uyumluluk yönetimi gibi özellikleri bir araya getirerek kurumların güvenlik durumunu izlemelerine ve güvenlik tehditlerine karşı daha hızlı tepki vermelerine yardımcı olur.
+
+SIEM sistemleri, ağ ve sistem günlüklerini toplar, bu verileri analiz eder, anormallikleri tespit eder ve güvenlik olaylarını raporlar. Bu sayede güvenlik ekibi, potansiyel tehditleri daha hızlı tespit edebilir ve müdahale edebilir.
+
+
+SIEM çözümleri, bir ağda real time olarak neler olduğuna dair bütünsel bir görünüm sağlar ve BT ekiplerinin güvenlik tehditlerine karşı mücadelesinde daha proaktif olmalarını sağlar. SIEM, açılımları "Güvenlik Bilgi Yönetimi" olan SIM ve "Güvenlik Olay Yönetimi" olan SEM'in birleştirilmiş halidir.
+
+SIEM, özünde bir veri toplayıcı, arama ve raporlama sistemidir. SIEM, ağ ortamından çok büyük miktarda veri toplar(log), bu verileri birleştirir ve insanlar tarafından erişilebilir hale getirir. Verileri kategorilere ayırır ve düzenleyerek , güvenlik kuralları yazmaya uygun hale getirir. SIEM’in bilinen diğer özellikleri şu şekildedir;
+
+-Temel Güvenlik İzleme
+-Gelişmiş Tehdit Algılama
+-Adli Bilişim ve Olay Müdahalesi
+-Günlük Toplama
+-Normalleştirme
+-Bildirimler ve Uyarılar
+-Güvenlik Olayı Tespiti
+-Tehdit Yanıtı İş Akışı
+
+LİDER SIEM ÜRÜNLERİ
+
+Gartner'ın, SIEM için yayınladığı güncel rapora göre listede yer alan 16 üründen lider sınıfına giren ürünleri grafiğe göre şu şekilde sıralayabiliriz ;
+-IBM QRadar
+-Splunk
+-FortiSIEM
+-Exabeam
+-LogRhythm
+-Rapid7
+-Securonix
+-Dell/RSA
+-McAfee ESM
+
+YERLİ SIEM ÜRÜNLERİ
+
+Ülkemizde ve global çapta azımsanmayacak seviyede pazar payı bulunan SIEM ürünleri bulunmaktadır. Bu ürünlerden bazıları şunlardır ;
+
+-AlienVault
+-ArcSight
+-Micro Focus
+
+Ülkemizdeki yerli ve milli olarak üretilen SIEM ürünlerimiz de mevcuttur. Global çapta üretilen SIEM ürünleri ile yarışabilecek teknik kabiliyetlere sahip yerli ürünlerimiz şunlardır ;
+-Cryptosim
+-Logsign
+-SureLog
+
+
+
+
+
+
+
+

@@ -1,0 +1,58 @@
+1. Mevcut sistem analizi 
+2. Bilgi güvenliği sistemlerinin analizi 
+3. Analiz sonucunda hangi sistemleri kullanılıp birleştireleceğine karar verilmesi
+4. Hedef kitlenin belirlenmesi 
+5. Sarf malzemelerin temin edilmesi ve AWS bütçe belirlenmesi ve süre belirlenmesi
+6. Geliştirme ortamının kurulumu 
+7. Çalışan kaynağı belirlenmesi(Analist - Yazılımcı - Test)
+8. kullanılacak kaynakların belirlenmesi(Jira bulut yazılım )
+9. Demo Projenin  gerçekleştirilip test edilmesi
+10. Bilgi sistemlerindeki protokoller ve yasaların analizi(BAŞLARDA YAZIALCAK)
+11. Kullanıcı ve firmalara hitap edecek üyelik paketlerin belirlenip ücretlendirilmesi  
+12. Mimari tasarımın geliştirilmesi.
+13. Arayüz prototipi geliştirilmesi 
+14. Risk Analizi ve Değerlendirmesi
+15. Eğitim ve Farkındalık Programları 
+16. Yedekleme ve Kurtarma Planları
+17. Performans Testleri ve Optimizasyon, Uygulama Güvenliği Testleri
+18. Sürekli İyileştirme ve Güncelleme
+
+
+-----------------------------------------------------------------
+Chat sıralaması 
+
+1. Mevcut sistem analizi
+2. Bilgi güvenliği sistemlerinin analizi
+3. Analiz sonucunda hangi sistemleri kullanılıp birleştireleceğine karar verilmesi
+4. Hedef kitlenin belirlenmesi
+5. Sarf malzemelerin temin edilmesi ve AWS bütçe belirlenmesi ve süre belirlenmesi
+6. Geliştirme ortamının kurulumu
+7. Çalışan kaynağı belirlenmesi (Analist - Yazılımcı - Test)
+8. Kullanılacak kaynakların belirlenmesi (Jira bulut yazılım)
+9. Demo Projenin gerçekleştirilip test edilmesi
+10. Bilgi sistemlerindeki protokoller ve yasaların analizi
+11. Kullanıcı ve firmalara hitap edecek üyelik paketlerin belirlenip ücretlendirilmesi
+12. Mimari tasarımın geliştirilmesi
+13. Arayüz prototipi geliştirilmesi
+14. Risk Analizi ve Değerlendirmesi
+15. Eğitim ve Farkındalık Programları
+16. Yedekleme ve Kurtarma Planları
+17. Performans Testleri ve Optimizasyon, Uygulama Güvenliği Testleri
+18. Sürekli İyileştirme ve Güncelleme
+
+
+---------------------------------------
+
+BAŞARI ÖLÇÜTLERİ
+Mevcut sistem analizi
+Bilgi güvenliği sistemlerinin analizi
+Analiz sonucunda hangi sistemlerin kullanılıp birleştirileceğine karar verilmesi
+Hedef kitlenin belirlenmesi
+Bilgi sistemlerindeki protokoller ve yasaların analizi
+Risk Analizi ve Değerlendirmesi
+Eğitim ve Farkındalık Programları
+Yedekleme ve Kurtarma Planları
+Performans Testleri ve Optimizasyon, Uygulama Güvenliği Testleri
+Sürekli İyileştirme ve Güncelleme
+
+

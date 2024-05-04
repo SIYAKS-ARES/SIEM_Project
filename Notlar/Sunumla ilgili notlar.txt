@@ -1,0 +1,109 @@
+bütçe belirlenmedi 
+kaynak belirlenmedi 
+firmada gerçekleşecek?
+
+
+
+Sunum 
+SIEM nedir 
+Kullanım alanı 
+Başlıca (kullanılacak) bilgi güvenliği uygulamaları ve kullanılan popüler sistemler (Birleştirilecek alt sistem analizi)
+Mevcut sistem analizi 
+SRS
+Amaç Kapsam dokümanı 
+Hedefler 
+diyagramlar: use case, ERD, context diyagramı, rich pictures
+Arayüz 
+User storyler 
+iş zaman çizelgesi 
+Başarı ölçütleri tablosu 
+Risk yönetim tablosu 
+
+** kimler kullanıyor 
+bahsedilecek terimlerin ne olduğu öğrenilecek ve ilk önce açıklama yapılacak 
+sistem kullancılarına saldırı olduğunda bu saldırı verileri geliştiricilere gelecek ve analiz yapılıp savunma sistemi güçlendirilecek 
+
+USE CASE: Geliştirici: destek ekibi
+
+USER STORY: Hikaye tanımı - kabul kriteri - bitti tanımı 
+
+
+---------------------------
+Chat sıralaması 
+
+1. Mevcut Sistem Analizi
+   Mevcut sistemlerin analizini sunarak, yeni sistemin neden gerekli olduğunu ve mevcut sistemlerin eksik yönlerini ortaya koyun.
+
+2. Amaç ve Kapsam Dokümanı
+
+3. Hedefler
+   Bu bölüm, projenin başarısını neyin belirleyeceğini anlamada kritik bir rol oynar.
+
+4. SIEM Açıklaması
+   - SIEM (Security Information and Event Management) sistemlerinin ne olduğunu ve nasıl çalıştığını açıklayın. Bu, projenin teknik yönlerine giriş yapmak için iyi bir başlangıçtır.
+
+5. Kullanım Alanı
+   - Sistemin hangi senaryolarda ve koşullarda kullanılacağını açıklayın. Bu, projenin uygulanabilirliğini ve gerekliliğini vurgular.
+
+6. Başlıca Bilgi Güvenliği Uygulamaları ve Kullanılan Popüler Sistemler
+   - Proje kapsamında kullanılacak olan başlıca bilgi güvenliği uygulamalarını ve popüler sistemleri tanıtın. Bu, projenin teknik derinliğini gösterir.
+ 
+
+7. SRS (Software Requirements Specification)
+   - Yazılım gereksinimlerini detaylandırın. Bu, projenin teknik özelliklerini ve beklenen fonksiyonları açıklar.
+
+8. Diyagramlar: Use Case, ERD (Entity Relationship Diagram), Context Diyagramı, Rich Pictures
+   Bu, kompleks bilgileri anlamayı kolaylaştırır.
+
+9. Arayüz
+
+10. User Storyler
+    - Gerçek kullanıcı ihtiyaçlarını temsil eden user storyleri paylaşın. Bu, sistemin kullanıcı odaklı olduğunu gösterir.
+
+11. İş Zaman Çizelgesi
+    - Projenin zaman çizelgesini ve önemli kilometre taşlarını belirtin. Bu, projenin zaman yönetimini ve planlamasını gösterir.
+
+12. Başarı Ölçütleri Tablosu
+    - Projenin başarısını nasıl ölçeceğinizi açıklayan kriterleri listeleyn. Bu, projenin sonuçlarını değerlendirmek için kullanılacak olan ölçütleri belirler.
+
+13. Risk Yönetim Tablosu**
+    - Potansiyel riskleri ve bu risklere karşı alınacak önlemleri içeren bir tablo sunun. Bu, projenin risk yönetim stratejisini ortaya koyar.
+
+Bu sıralama, projenin amacından başlayarak, teknik detaylara ve sonunda projenin yönetim yönlerine kadar kapsamlı bir bilgi sunar. Her bölüm bir öncekinin üzerine inşa ederek, izleyicilere projenin tam bir resmini sunar.
+
+
+
+------------------
+Genel Sıralama
+
+1. Proje Tanımı ve Amaçları
+   - Projenin Genel Amaçları
+   - Projenin Kapsamı ve Hedefleri
+   - Projenin Önemi ve Gerekçesi
+
+2. Mevcut Durum Analizi
+   - Mevcut Sistem ve Altyapı Analizi
+   - Mevcut Güvenlik Zaafları ve Riskler
+   - Yeni Sistemin Gerekliliği ve Faydaları
+
+3. Teknik Detaylar ve Çözüm Önerisi
+   - Uygulanacak Teknolojiler ve UTM Sistemi
+   - Başlıca Güvenlik Uygulamaları ve Sistemler
+   - Sistem Mimarisi ve Entegrasyon Planı
+
+4. Geliştirme Süreci ve Metodoloji
+   - Proje Yönetim Süreci
+   - Geliştirme Metodolojisi ve Aşamaları
+   - Risk Yönetimi ve Karar Verme Süreçleri
+
+5. Proje Uygulama ve Sonuçlar
+   - Uygulama Süreci ve Deneyimler
+   - Elde Edilen Sonuçlar ve Başarı Ölçütleri
+   - Kullanıcı Geri Bildirimleri ve Değerlendirmeleri
+
+6. Sonuç ve Öneriler
+   - Projenin Başarısı ve Etkileri
+   - Gelecekte Yapılacak İyileştirmeler ve Öneriler
+   - Proje Ekibi ve Katkıları
+
+
