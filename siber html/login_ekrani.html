@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Koala Girişi</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #000;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .login-container {
+      background-color: #000;
+      padding: 20px;
+      border-radius: 8px;
+      max-width: 400px;
+      width: 100%;
+      box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.1);
+      overflow: hidden;
+      position: relative;
+    }
+    .matrix-bg {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      background-image: url('https://www.transparenttextures.com/patterns/matrix-code-3.png');
+      animation: matrix-animation 5s linear infinite;
+    }
+    @keyframes matrix-animation {
+      0% { background-position: 0 0; }
+      100% { background-position: 100% 100%; }
+    }
+    .login-container h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #0f0;
+    }
+    .login-container input[type="text"],
+    .login-container input[type="password"] {
+      width: calc(100% - 40px);
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #0f0;
+      border-radius: 4px;
+      box-sizing: border-box;
+      background-color: #000;
+      color: #0f0;
+    }
+    .login-container input[type="submit"] {
+      background-color: #007bff;
+      color: #0f0;
+      border: darkred;
+      padding: 12px 20px;
+      border-radius: 300px;
+      cursor: pointer;
+      font-size: 16px;
+      width: 100%;
+      transition: background-color 0.3s ease;
+    }
+    .login-container input[type="submit"]:hover {
+      background-color: #0056b3;
+    }
+    .error-message {
+      color: red;
+      font-size: 14px;
+      margin-top: 10px;
+      text-align: center;
+    }
+    .cooldown-message {
+      color: red;
+      font-size: 14px;
+      margin-top: 10px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="login-container">
+    <div class="matrix-bg"></div>
+    <h2>LOGO</h2>
+    <form id="loginForm" action="#" method="post">
+      <input type="text" id="username" name="username" placeholder="Kullanıcı Adı" required>
+      <input type="password" id="password" name="password" placeholder="Şifre" required>
+      <input type="submit" value="Giriş Yap">
+    </form>
+    <p id="errorMessage" class="error-message" style="display:none;"></p>
+    <p id="cooldownMessage" class="cooldown-message" style="display:none;"></p>
+  </div>
+
+  <script>
+    var loginForm = document.getElementById("loginForm");
+    var errorMessage = document.getElementById("errorMessage");
+    var cooldownMessage = document.getElementById("cooldownMessage");
+    var attempts = 0;
+    var cooldown = false;
+
+    loginForm.addEventListener("submit", function(event) {
+      event.preventDefault();
+
+      if (cooldown) {
+        cooldownMessage.style.display = "block";
+        startCountdown();
+        return;
+      }
+
+      var username = document.getElementById("username").value;
+      var password = document.getElementById("password").value;
+
+      if (username === "admin" && password === "1234") {
+        // Doğru kullanıcı adı ve şifre, giriş başarılı.
+        window.location.href = "adminpanel.html"; // Yönlendirilecek sayfa
+      } else {
+        // Yanlış kullanıcı adı veya şifre, giriş başarısız.
+        attempts++;
+        if (attempts >= 4) {
+          cooldown = true;
+          startCountdown();
+        }
+        errorMessage.style.display = "block";
+        errorMessage.textContent = "Kullanıcı adı veya şifre hatalı. Lütfen tekrar deneyin.";
+      }
+    });
+
+    function startCountdown() {
+  var seconds = 30;
+  cooldownMessage.style.display = "block"; // Bu satırı sadece bir kez çağırıyoruz
+
+  var countdownInterval = setInterval(function() {
+    seconds--;
+    cooldownMessage.textContent = "Lütfen " + seconds + " saniye bekleyin ve tekrar deneyin.";
+    if (seconds <= 0) {
+      clearInterval(countdownInterval);
+      cooldownMessage.style.display = "none";
+      cooldown = false;
+      attempts = 0;
+    }
+  }, 1000);
+}
+  </script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sızılıyor...</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #000;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .loader-container {
+      text-align: center;
+      color: #0f0;
+    }
+    .loader {
+      border: 8px solid #0f0;
+      border-top: 8px solid transparent;
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      animation: spin 1s linear infinite;
+      margin-bottom: 20px;
+    }
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+  </style>
+</head>
+<body>
+  <div class="loader-container">
+    <div class="loader"></div>
+    <p>Sızılıyor...</p>
+  </div>
+
+  <script>
+    // Yükleme ekranını 3 saniye sonra siber dosyanın index.html dosyasına yönlendir
+    setTimeout(function() {
+      window.location.href = "C:/Users/Kenan/Desktop/siber html/login_ekrani.html";
+    }, 3000);
+  </script>
+</body>
+</html>
