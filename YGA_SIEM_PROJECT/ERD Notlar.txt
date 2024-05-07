@@ -1,9 +1,3 @@
-ERD Diyagramı - UTM Tabanlı Bilgi Sistemleri Güvenliği
-UTM tabanlı sistem tasarımı için ERD diyagramı, farklı varlıklar (entity) ve bu varlıklar arasındaki ilişkileri (relationship) gösterir. İşte temel bileşenler ve ilişkiler:
-
-
-
-
 UTM Servisi
 1. Güvenlik Hizmetleri
    - Firewall
@@ -35,4 +29,31 @@ UTM Servisi
    - Kullanıcı
 
 
+-----------------------
+
+Diğer sıralama 
+
+1. Güvenlik Duvarları (Firewall)
+Saldırı Tespit ve Engelleme Sistemleri (STS)
+Web Uygulama Güvenlik Duvarı
+DB Güvenlik Duvarı
+E-posta Güvenlik Duvarı
+
+2. Filtreleme ve Güvenlik Sistemleri
+URL Filter
+Antivirüs
+Transparan İçerik Yönlendirici
+
+3. Zafiyet ve Risk Yönetimi
+Zafiyet Tarama Sistemleri
+Risk Analiz Yönetim Sistemi
+
+4. Güvenlik İzleme ve Kontrol Sistemleri
+Kayıt Toplama ve Kolerasyon Sistemi
+Ağ Erişim Kontrolü
+Sıfır Gün Zararlı Yazılım Tespit Sistemi
+Ağ İzleme ve Performans Analizi
+
+5. Veri Güvenliği
+Veri Kaçakları Önleme Sistemi 
 
